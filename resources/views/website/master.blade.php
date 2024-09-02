@@ -9,6 +9,6 @@
     @include('website.partials.navigation')
         @yield('content')
     @include('website.partials.footer')
-    <script src="{{asset('website/website/index.js')}}"></script>
+    <script src="{{asset('website/index.js')}}"></script>
 </body>
 </html>
