@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('service_features', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('image');
+            $table->text('description');
+            $table->text('slug');
             $table->timestamps();
         });
     }
