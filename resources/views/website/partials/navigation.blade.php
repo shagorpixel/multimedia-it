@@ -18,10 +18,10 @@
     <nav id="menu" class="col-span-12 lg:col-span-8 my-3 hidden md:block">
         <ul class="md:grid md:grid-cols-2">
             <div class="md:flex md:justify-between">
-                <li class="my-2 md:inline md:my-0"><a href="#">Services</a></li>
-                <li class="my-2 md:inline md:my-0"><a href="#">Pricing</a></li>
-                <li class="my-2 md:inline md:my-0"><a href="#">About Us</a></li>
-                <li class="my-2 md:inline md:my-0"><a href="contact.html">Contact</a></li>
+                <li class="my-2 md:inline md:my-0"><a href="{{route('homepage')}}">Home</a></li>
+                <li class="my-2 md:inline md:my-0"><a href="{{route('servicepage')}}">Service</a></li>
+                <li class="my-2 md:inline md:my-0"><a href="{{route('contacthomepage')}}">Contact</a></li>
+                <li class="my-2 md:inline md:my-0"><a href="contact.html">Blog</a></li>
             </div>
             <div class="md:flex md:justify-end">
                 <li class="my-2 md:inline md:my-0 md:mr-8"><a href="#">Login</a></li>
